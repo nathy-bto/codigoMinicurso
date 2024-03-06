@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:id="ControleListaDesejos" >
+   <children>
+      <Label layoutX="22.0" layoutY="14.0" text="AlivrariA">
+         <font>
+            <Font name="Freestyle Script" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="112.0" layoutX="50.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="112.0" layoutX="244.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="112.0" layoutX="440.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="112.0" layoutX="57.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="112.0" layoutX="244.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="112.0" layoutX="450.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="138.0" layoutY="211.0" mnemonicParsing="false" text="ir" fx:id="irButton" onAction="#handleClickIr" />
+      <Button layoutX="332.0" layoutY="211.0" mnemonicParsing="false" text="ir" fx:id="irButton" onAction="#handleClickIr" />
+      <Button layoutX="528.0" layoutY="211.0" mnemonicParsing="false" text="ir" fx:id="irButton" onAction="#handleClickIr"/>
+      <Button layoutX="138.0" layoutY="361.0" mnemonicParsing="false" text="ir" fx:id="irButton" onAction="#handleClickIr"/>
+      <Button layoutX="332.0" layoutY="361.0" mnemonicParsing="false" text="ir" fx:id="irButton" onAction="#handleClickIr"/>
+      <Button layoutX="539.0" layoutY="361.0" mnemonicParsing="false" text="ir" fx:id="irButton" onAction="#handleClickIr"/>
+      <Button layoutX="562.0" layoutY="14.0" mnemonicParsing="false" text="X" fx:id="xButton" onAction="#handleClickX" />
+      <Button layoutX="516.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="23.0" fx:id="menuButton" onAction="#handleClickMenu" />
+      <ImageView fitHeight="50.0" fitWidth="58.0" layoutX="503.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/1490793867-user-interface03_82331.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

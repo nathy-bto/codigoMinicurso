@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControlePrincipal" >
+   <children>
+      <Label layoutX="14.0" layoutY="10.0" prefHeight="42.0" prefWidth="155.0" text=" AlivrariA">
+         <font>
+            <Font name="Freestyle Script" size="36.0" />
+         </font>
+      </Label>
+      <TextField layoutX="163.0" layoutY="23.0" prefHeight="24.0" prefWidth="247.0" promptText="pesquisar" 
+      fx:id= "pesquisarTextField"/>
+      <Button layoutX="416.0" layoutY="23.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="22.0" 
+      fx:id= "pesquisaButton" onAction="#handleClickPesquisaView" />
+      <Button layoutX="568.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="22.0" 
+      fx:id= "menuButton" onAction="#handleClickMenu" />
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="416.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/zoom-2_90835.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="39.0" layoutX="560.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/1490793867-user-interface03_82331.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="135.0" layoutX="70.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Screenshots/Captura%20de%20tela%202024-02-29%20190131.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="64.0" layoutY="71.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Livros" 
+      fx:id= "livrosButton" onAction="#handleClickLivros" />
+      <Button layoutX="423.0" layoutY="71.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Categorias" 
+      fx:id= "categoriaButton" onAction="#handleClickCategoria" />
+      <ImageView fitHeight="129.0" fitWidth="135.0" layoutX="251.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Screenshots/Captura%20de%20tela%202024-02-29%20185954.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="135.0" layoutX="427.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Screenshots/Captura%20de%20tela%202024-02-29%20185843.png" />
+         </image>
+      </ImageView>
+      <ScrollBar layoutX="579.0" layoutY="60.0" orientation="VERTICAL" prefHeight="335.0" prefWidth="14.0" />
+      <ImageView fitHeight="129.0" fitWidth="135.0" layoutX="70.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Screenshots/Captura%20de%20tela%202024-02-29%20190544.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="135.0" layoutX="250.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Screenshots/Captura%20de%20tela%202024-02-29%20190531.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="135.0" layoutX="429.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Screenshots/Captura%20de%20tela%202024-02-29%20190731.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="243.0" layoutY="71.0" mnemonicParsing="false" text="Lista de Desejos" 
+      fx:id="listaDesejosButton" onAction="#handleClickListaDesejos" />
+      <Separator layoutX="-4.0" layoutY="60.0" prefHeight="5.0" prefWidth="583.0" />
+      <Separator layoutX="2.0" layoutY="103.0" prefHeight="5.0" prefWidth="577.0" />
+   </children>
+</Pane>
